@@ -1,0 +1,49 @@
+GENESIS END-USER LICENSE AGREEMENT
+
+Copyright (c) 2026 Gemmie. All rights reserved.
+
+Genesis is the intellectual property of Gemmie. Genesis ("the Software") is proprietary software. It is licensed, not sold. By installing, copying, or using the Software you agree to the terms below. If you do not agree, do not install or use the Software.
+
+1. GRANT OF LICENSE
+
+You are granted a personal, non-exclusive, non-transferable, royalty-free licence to install and use the Software, free of charge, on any number of computers you own or control, for your own purposes — personal or commercial.
+
+2. WHAT YOU MAY NOT DO
+
+You may not, in whole or in part:
+
+(a) sell, rent, lease, sublicense, or otherwise distribute the Software, its installer, or any copy of it to any third party, whether for a fee or free of charge;
+
+(b) reverse engineer, decompile, disassemble, or otherwise attempt to derive the source code of the Software, except to the extent this restriction is expressly prohibited by applicable law;
+
+(c) modify, adapt, translate, or create derivative works based on the Software;
+
+(d) remove, alter, or obscure any copyright, trademark, or other proprietary notice in the Software.
+
+All rights not expressly granted to you are reserved by Gemmie. The source code of the Software is not distributed and remains the exclusive property of Gemmie.
+
+3. HOW THE SOFTWARE WORKS
+
+The Software performs local subatomic physics and quantum mechanics simulations. It does not send your data, your simulation parameters, or your exported frames to the author or to any third party. The mathematical computations are executed locally on your hardware. Files it keeps on your computer are described in its documentation. This description is provided for transparency and is not a warranty.
+
+4. NO WARRANTY
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE, AND NON-INFRINGEMENT. YOU USE THE SOFTWARE AT YOUR OWN RISK. The Software performs complex, resource-intensive calculations; you are solely responsible for how you interpret or apply the simulation results, and for monitoring your hardware's performance during intensive compute tasks.
+
+5. LIMITATION OF LIABILITY
+
+TO THE MAXIMUM EXTENT PERMITTED BY APPLICABLE LAW, IN NO EVENT SHALL THE COPYRIGHT HOLDER BE LIABLE FOR ANY DIRECT, INDIRECT, INCIDENTAL, SPECIAL, OR CONSEQUENTIAL DAMAGES — INCLUDING BUT NOT LIMITED TO LOSS OF DATA, LOSS OF PROFITS, HARDWARE OVERHEATING, OR SERVICE INTERRUPTION — ARISING OUT OF THE USE OF OR INABILITY TO USE THE SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGES.
+
+6. THIRD-PARTY COMPONENTS
+
+The Software includes open-source components (including a Java runtime, JavaFX, a Python environment, and inter-process communication libraries) distributed under their own licences. Those licences apply to those components and are unaffected by this agreement.
+
+7. TERMINATION
+
+This licence ends automatically if you breach any of its terms. On termination you must stop using the Software and delete all copies. Sections 4, 5, and 6 survive termination.
+
+8. GOVERNING LAW
+
+This agreement is governed by the laws of the Republic of Rwanda, without regard to its conflict-of-law rules.
+
+Contact: nellawassi@gmail.com
