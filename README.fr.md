@@ -6,11 +6,13 @@
 
 <p align="center">
   <b>La matière, calculée sous vos yeux.</b><br>
-  Un simulateur physique gratuit pour Windows : construisez un atome, faites fusionner deux noyaux, descendez jusqu'aux quarks.
+  Un simulateur physique gratuit pour Windows et Linux : construisez un atome, faites fusionner deux noyaux, descendez jusqu'aux quarks.
 </p>
 
 <p align="center">
-  <a href="https://github.com/Lightminedust/genesis-releases/releases/download/v0.1.1/Genesis-0.1.1.exe"><b>Télécharger pour Windows</b></a>
+  <a href="https://github.com/Lightminedust/genesis-releases/releases/download/v0.2.0/Genesis-0.2.0.exe"><b>Télécharger pour Windows</b></a>
+  ·
+  <a href="https://github.com/Lightminedust/genesis-releases/releases/download/v0.2.0/Genesis-0.2.0-linux-x64.deb"><b>Télécharger pour Linux</b></a>
   ·
   <a href="https://genesis.gemmi-e.com">Site web</a>
   ·
@@ -56,24 +58,28 @@ Envoyez un électron sur un nucléon et regardez ce qui arrive, assemblez vos pr
 - Le tableau du Modèle Standard, chaque ligne calculée ou mesurée
 - La mer de partons qui apparaît quand on regarde de plus près
 
-## Télécharger — version 0.1.1
+## Télécharger — version 0.2.0
 
 | Fichier | Usage |
 | --- | --- |
-| [**Genesis-0.1.1.exe**](https://github.com/Lightminedust/genesis-releases/releases/download/v0.1.1/Genesis-0.1.1.exe) (243 Mo) | Installateur : ajoute Genesis au menu Démarrer et au bureau |
-| [Genesis-0.1.1-portable.zip](https://github.com/Lightminedust/genesis-releases/releases/download/v0.1.1/Genesis-0.1.1-portable.zip) (242 Mo) | Rien à installer : extraire toute l'archive, puis lancer `Genesis/Genesis.exe` |
+| [**Genesis-0.2.0.exe**](https://github.com/Lightminedust/genesis-releases/releases/download/v0.2.0/Genesis-0.2.0.exe) | Installateur Windows : ajoute Genesis au menu Démarrer et au bureau |
+| [Genesis-0.2.0-portable.zip](https://github.com/Lightminedust/genesis-releases/releases/download/v0.2.0/Genesis-0.2.0-portable.zip) | Windows portable : extraire toute l'archive, puis lancer `Genesis/Genesis.exe` |
+| [**Genesis-0.2.0-linux-x64.deb**](https://github.com/Lightminedust/genesis-releases/releases/download/v0.2.0/Genesis-0.2.0-linux-x64.deb) | Installateur Debian/Ubuntu x86-64 : ajoute Genesis au menu des applications |
+| [Genesis-0.2.0-linux-x64.tar.gz](https://github.com/Lightminedust/genesis-releases/releases/download/v0.2.0/Genesis-0.2.0-linux-x64.tar.gz) | Linux portable : extraire, puis lancer `Genesis/bin/Genesis` |
 
-Java et le moteur Python sont inclus : il n'y a rien d'autre à installer. Genesis tourne entièrement sur votre ordinateur, sans compte ni serveur. Toutes les versions sont sur la [page des Releases](https://github.com/Lightminedust/genesis-releases/releases).
+Java et le moteur Python sont inclus : aucune installation séparée de Java ou Python n'est requise. Genesis tourne entièrement sur votre ordinateur, sans compte ni serveur. L'anglais est la langue initiale ; le français se choisit dans le menu des langues. Toutes les versions sont sur la [page des Releases](https://github.com/Lightminedust/genesis-releases/releases).
 
 **Premier lancement.** Le moteur charge ses données, ce qui peut prendre plusieurs dizaines de secondes. Un écran de chargement reste affiché jusqu'à ce qu'il soit prêt.
 
 **Avertissement de Windows.** Cette version n'est pas encore signée numériquement. Si Windows SmartScreen affiche un avertissement, cliquez sur **Informations complémentaires**, puis **Exécuter quand même**. Vous pouvez vérifier que votre téléchargement est intact avec les empreintes SHA-256 de [CHECKSUMS-SHA256.txt](CHECKSUMS-SHA256.txt) :
 
 ```powershell
-Get-FileHash .\Genesis-0.1.1.exe -Algorithm SHA256
+Get-FileHash .\Genesis-0.2.0.exe -Algorithm SHA256
 ```
 
-**Si le moteur ne démarre pas**, son journal se trouve dans `%LOCALAPPDATA%\Genesis\logs\engine.log`. Envoyez-le via la [page de contact](https://gemmi-e.com/contact), avec votre version de Windows.
+**Linux.** Sous Debian/Ubuntu, installer le fichier téléchargé avec `sudo apt install ./Genesis-0.2.0-linux-x64.deb`. Pour l'archive portable : `tar -xzf Genesis-0.2.0-linux-x64.tar.gz`, puis `./Genesis/bin/Genesis`. Un bureau avec GTK 3 est nécessaire. Le journal du moteur Linux est dans `${XDG_STATE_HOME:-~/.local/state}/genesis/logs/engine.log`.
+
+**Si le moteur ne démarre pas**, son journal se trouve dans `%LOCALAPPDATA%\Genesis\logs\engine.log` sous Windows, ou dans le chemin Linux ci-dessus. Envoyez-le via la [page de contact](https://gemmi-e.com/contact), avec votre version du système.
 
 ## Soutenir le projet
 
@@ -85,7 +91,7 @@ Genesis est conçu et développé en indépendant. S'il vous plaît :
 
 ## Licence
 
-Genesis est gratuit à installer et à utiliser, pour un usage personnel ou professionnel, sur tous les ordinateurs que vous possédez. C'est un logiciel propriétaire : il est interdit de le vendre, de le redistribuer ou de le modifier. Voir la [licence d'utilisation](EULA.txt) complète. Ce dépôt ne contient que les téléchargements officiels ; le code source n'est pas publié.
+Genesis est gratuit à installer et à utiliser, pour un usage personnel ou professionnel, sur tous les ordinateurs que vous possédez. C'est un logiciel propriétaire : il est interdit de le vendre, de le redistribuer ou de le modifier. Voir la [licence d'utilisation](EULA.txt) complète. Ce dépôt contient les téléchargements officiels ; le [dépôt du code source](https://github.com/Lightminedust/genesis) est maintenu séparément.
 
 ---
 

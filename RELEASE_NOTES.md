@@ -1,9 +1,24 @@
-# Genesis 0.1.1
+# Genesis 0.2.0 — Windows et Linux
 
-Première version Windows distribuée via GitHub Releases. Le paquet contient l'application JavaFX, son runtime Java et le moteur Python local.
+Genesis est désormais distribué pour Windows et Linux x86-64. Les deux paquets
+embarquent le client JavaFX, Java 21 et le moteur Python local ; aucun serveur,
+Docker ou environnement Python séparé n'est nécessaire.
 
-Le démarrage attend maintenant que le moteur Python ait chargé ses données avant d'ouvrir la connexion. Un écran de chargement indique l'attente ; le démarrage complet a pris 43 secondes lors du test du paquet. Les demandes d'ouverture d'un laboratoire faites pendant cette phase sont conservées jusqu'à la première réponse du moteur.
+L'interface démarre en anglais. Le menu **FR/EN** permet de passer au français,
+et mémorise ce choix. Les simulations et les calculs physiques ne changent pas.
 
-Télécharger l'installateur pour ajouter Genesis au menu Démarrer, ou le ZIP portable à extraire entièrement avant de lancer `Genesis/Genesis.exe`. Les calculs de simulation n'ont pas été modifiés pour cette correction.
+## Téléchargements
 
-Licence : [EULA](https://github.com/Lightminedust/genesis-releases/blob/main/EULA.txt). Vérification : [empreintes SHA-256](https://github.com/Lightminedust/genesis-releases/blob/main/CHECKSUMS-SHA256.txt). Cette version n'est pas signée numériquement.
+| Système | Installateur | Portable |
+| --- | --- | --- |
+| Windows | [Genesis-0.2.0.exe](https://github.com/Lightminedust/genesis-releases/releases/download/v0.2.0/Genesis-0.2.0.exe) | [ZIP](https://github.com/Lightminedust/genesis-releases/releases/download/v0.2.0/Genesis-0.2.0-portable.zip) |
+| Debian/Ubuntu x86-64 | [.deb](https://github.com/Lightminedust/genesis-releases/releases/download/v0.2.0/Genesis-0.2.0-linux-x64.deb) | [tar.gz](https://github.com/Lightminedust/genesis-releases/releases/download/v0.2.0/Genesis-0.2.0-linux-x64.tar.gz) |
+
+Sous Linux, installez le `.deb` avec `sudo apt install ./Genesis-0.2.0-linux-x64.deb`,
+ou extrayez l'archive et lancez `./Genesis/bin/Genesis`. Un environnement de bureau
+GTK 3 est requis. Le moteur écrit ses erreurs dans
+`${XDG_STATE_HOME:-~/.local/state}/genesis/logs/engine.log`.
+
+Consultez la [licence](https://github.com/Lightminedust/genesis-releases/blob/main/EULA.txt)
+et vérifiez les fichiers avec les [empreintes SHA-256](https://github.com/Lightminedust/genesis-releases/blob/main/CHECKSUMS-SHA256.txt).
+Les paquets ne sont pas signés numériquement.
