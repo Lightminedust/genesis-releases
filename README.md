@@ -6,13 +6,15 @@
 
 <p align="center">
   <b>Matter, computed before your eyes.</b><br>
-  A free physics simulator for Windows and Linux: build an atom, fuse two nuclei, go all the way down to quarks.
+  A free physics simulator for Windows, Linux and macOS: build an atom, fuse two nuclei, go all the way down to quarks.
 </p>
 
 <p align="center">
   <a href="https://github.com/Lightminedust/genesis-releases/releases/download/v0.2.0/Genesis-0.2.0.exe"><b>Download for Windows</b></a>
   ·
   <a href="https://github.com/Lightminedust/genesis-releases/releases/download/v0.2.0/Genesis-0.2.0-linux-x64.deb"><b>Download for Linux</b></a>
+  ·
+  <a href="https://github.com/Lightminedust/genesis-releases/releases/download/v0.2.0/Genesis-0.2.0-macos-arm64.dmg"><b>Download for macOS</b></a>
   ·
   <a href="https://genesis.gemmi-e.com">Website</a>
   ·
@@ -66,6 +68,8 @@ Fire an electron at a nucleon and watch what happens, assemble your own hadrons 
 | [Genesis-0.2.0-portable.zip](https://github.com/Lightminedust/genesis-releases/releases/download/v0.2.0/Genesis-0.2.0-portable.zip) | Windows portable: extract the whole archive, then run `Genesis/Genesis.exe` |
 | [**Genesis-0.2.0-linux-x64.deb**](https://github.com/Lightminedust/genesis-releases/releases/download/v0.2.0/Genesis-0.2.0-linux-x64.deb) | Debian/Ubuntu x86-64 installer: adds Genesis to the applications menu |
 | [Genesis-0.2.0-linux-x64.tar.gz](https://github.com/Lightminedust/genesis-releases/releases/download/v0.2.0/Genesis-0.2.0-linux-x64.tar.gz) | Linux portable: extract, then run `Genesis/bin/Genesis` |
+| [**Genesis-0.2.0-macos-arm64.dmg**](https://github.com/Lightminedust/genesis-releases/releases/download/v0.2.0/Genesis-0.2.0-macos-arm64.dmg) | macOS Apple Silicon disk image: open, then drag Genesis to Applications |
+| [Genesis-0.2.0-macos-arm64.zip](https://github.com/Lightminedust/genesis-releases/releases/download/v0.2.0/Genesis-0.2.0-macos-arm64.zip) | macOS Apple Silicon portable: extract, then open `Genesis.app` |
 
 Java and the Python engine are bundled: no separate Java or Python installation is required. Genesis runs entirely on your computer, with no account and no server. English is the default; French is available from the language menu. All versions are on the [Releases page](https://github.com/Lightminedust/genesis-releases/releases).
 
@@ -79,7 +83,9 @@ Get-FileHash .\Genesis-0.2.0.exe -Algorithm SHA256
 
 **Linux.** On Debian/Ubuntu, install the downloaded package with `sudo apt install ./Genesis-0.2.0-linux-x64.deb`. For the portable archive, run `tar -xzf Genesis-0.2.0-linux-x64.tar.gz` and then `./Genesis/bin/Genesis`. A desktop with GTK 3 is required. The Linux engine log is at `${XDG_STATE_HOME:-~/.local/state}/genesis/logs/engine.log`.
 
-**If the engine does not start**, its log is at `%LOCALAPPDATA%\Genesis\logs\engine.log` on Windows or the Linux path above. Send it through the [contact page](https://gemmi-e.com/contact), along with your operating system version.
+**macOS.** Apple Silicon (arm64) only. Open the `.dmg` and drag Genesis to Applications, or extract the `.zip` and open `Genesis.app`. The package is not notarized: if macOS blocks the first launch, right-click the app, choose **Open**, then confirm. You can also clear the quarantine flag with `xattr -dr com.apple.quarantine /Applications/Genesis.app`. The engine log is at `~/Library/Logs/Genesis/engine.log`.
+
+**If the engine does not start**, its log is at `%LOCALAPPDATA%\Genesis\logs\engine.log` on Windows, `${XDG_STATE_HOME:-~/.local/state}/genesis/logs/engine.log` on Linux, or `~/Library/Logs/Genesis/engine.log` on macOS. Send it through the [contact page](https://gemmi-e.com/contact), along with your operating system version.
 
 ## Support the project
 
