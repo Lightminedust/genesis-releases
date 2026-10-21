@@ -14,7 +14,7 @@
   ·
   <a href="https://github.com/Lightminedust/genesis-releases/releases/download/v0.3.0/Genesis-0.3.0-linux-x64.deb"><b>Télécharger pour Linux</b></a>
   ·
-  <a href="https://github.com/Lightminedust/genesis-releases/releases/download/v0.2.0/Genesis-0.2.0-macos-arm64.dmg"><b>Télécharger pour macOS</b></a>
+  <a href="https://github.com/Lightminedust/genesis-releases/releases/download/v0.3.0/Genesis-0.3.0-macos-arm64.dmg"><b>Télécharger pour macOS</b></a>
   ·
   <a href="https://genesis.gemmi-e.com">Site web</a>
   ·
@@ -60,7 +60,7 @@ Envoyez un électron sur un nucléon et regardez ce qui arrive, assemblez vos pr
 - Le tableau du Modèle Standard, chaque ligne calculée ou mesurée
 - La mer de partons qui apparaît quand on regarde de plus près
 
-## Télécharger — version 0.3.0 (macOS : 0.2.0)
+## Télécharger — version 0.3.0
 
 | Fichier | Usage |
 | --- | --- |
@@ -68,8 +68,8 @@ Envoyez un électron sur un nucléon et regardez ce qui arrive, assemblez vos pr
 | [Genesis-0.3.0-portable.zip](https://github.com/Lightminedust/genesis-releases/releases/download/v0.3.0/Genesis-0.3.0-portable.zip) | Windows portable : extraire toute l'archive, puis lancer `Genesis/Genesis.exe` |
 | [**Genesis-0.3.0-linux-x64.deb**](https://github.com/Lightminedust/genesis-releases/releases/download/v0.3.0/Genesis-0.3.0-linux-x64.deb) | Installateur Debian/Ubuntu x86-64 : ajoute Genesis au menu des applications |
 | [Genesis-0.3.0-linux-x64.tar.gz](https://github.com/Lightminedust/genesis-releases/releases/download/v0.3.0/Genesis-0.3.0-linux-x64.tar.gz) | Linux portable : extraire, puis lancer `Genesis/bin/Genesis` |
-| [**Genesis-0.2.0-macos-arm64.dmg**](https://github.com/Lightminedust/genesis-releases/releases/download/v0.2.0/Genesis-0.2.0-macos-arm64.dmg) | Image disque macOS Apple Silicon : ouvrir, puis glisser Genesis vers Applications |
-| [Genesis-0.2.0-macos-arm64.zip](https://github.com/Lightminedust/genesis-releases/releases/download/v0.2.0/Genesis-0.2.0-macos-arm64.zip) | macOS Apple Silicon portable : extraire, puis ouvrir `Genesis.app` |
+| [**Genesis-0.3.0-macos-arm64.dmg**](https://github.com/Lightminedust/genesis-releases/releases/download/v0.3.0/Genesis-0.3.0-macos-arm64.dmg) | Image disque macOS Apple Silicon : ouvrir, puis glisser Genesis vers Applications |
+| [Genesis-0.3.0-macos-arm64.zip](https://github.com/Lightminedust/genesis-releases/releases/download/v0.3.0/Genesis-0.3.0-macos-arm64.zip) | macOS Apple Silicon portable : extraire, puis ouvrir `Genesis.app` |
 
 Java et le moteur Python sont inclus : aucune installation séparée de Java ou Python n'est requise. Genesis tourne entièrement sur votre ordinateur, sans compte ni serveur. L'anglais est la langue initiale ; le français se choisit dans le menu des langues. Toutes les versions sont sur la [page des Releases](https://github.com/Lightminedust/genesis-releases/releases).
 
