@@ -10,9 +10,9 @@
 </p>
 
 <p align="center">
-  <a href="https://github.com/Lightminedust/genesis-releases/releases/download/v0.2.0/Genesis-0.2.0.exe"><b>Télécharger pour Windows</b></a>
+  <a href="https://github.com/Lightminedust/genesis-releases/releases/download/v0.3.0/Genesis-0.3.0.exe"><b>Télécharger pour Windows</b></a>
   ·
-  <a href="https://github.com/Lightminedust/genesis-releases/releases/download/v0.2.0/Genesis-0.2.0-linux-x64.deb"><b>Télécharger pour Linux</b></a>
+  <a href="https://github.com/Lightminedust/genesis-releases/releases/download/v0.3.0/Genesis-0.3.0-linux-x64.deb"><b>Télécharger pour Linux</b></a>
   ·
   <a href="https://github.com/Lightminedust/genesis-releases/releases/download/v0.2.0/Genesis-0.2.0-macos-arm64.dmg"><b>Télécharger pour macOS</b></a>
   ·
@@ -60,14 +60,14 @@ Envoyez un électron sur un nucléon et regardez ce qui arrive, assemblez vos pr
 - Le tableau du Modèle Standard, chaque ligne calculée ou mesurée
 - La mer de partons qui apparaît quand on regarde de plus près
 
-## Télécharger — version 0.2.0
+## Télécharger — version 0.3.0 (macOS : 0.2.0)
 
 | Fichier | Usage |
 | --- | --- |
-| [**Genesis-0.2.0.exe**](https://github.com/Lightminedust/genesis-releases/releases/download/v0.2.0/Genesis-0.2.0.exe) | Installateur Windows : ajoute Genesis au menu Démarrer et au bureau |
-| [Genesis-0.2.0-portable.zip](https://github.com/Lightminedust/genesis-releases/releases/download/v0.2.0/Genesis-0.2.0-portable.zip) | Windows portable : extraire toute l'archive, puis lancer `Genesis/Genesis.exe` |
-| [**Genesis-0.2.0-linux-x64.deb**](https://github.com/Lightminedust/genesis-releases/releases/download/v0.2.0/Genesis-0.2.0-linux-x64.deb) | Installateur Debian/Ubuntu x86-64 : ajoute Genesis au menu des applications |
-| [Genesis-0.2.0-linux-x64.tar.gz](https://github.com/Lightminedust/genesis-releases/releases/download/v0.2.0/Genesis-0.2.0-linux-x64.tar.gz) | Linux portable : extraire, puis lancer `Genesis/bin/Genesis` |
+| [**Genesis-0.3.0.exe**](https://github.com/Lightminedust/genesis-releases/releases/download/v0.3.0/Genesis-0.3.0.exe) | Installateur Windows : ajoute Genesis au menu Démarrer et au bureau |
+| [Genesis-0.3.0-portable.zip](https://github.com/Lightminedust/genesis-releases/releases/download/v0.3.0/Genesis-0.3.0-portable.zip) | Windows portable : extraire toute l'archive, puis lancer `Genesis/Genesis.exe` |
+| [**Genesis-0.3.0-linux-x64.deb**](https://github.com/Lightminedust/genesis-releases/releases/download/v0.3.0/Genesis-0.3.0-linux-x64.deb) | Installateur Debian/Ubuntu x86-64 : ajoute Genesis au menu des applications |
+| [Genesis-0.3.0-linux-x64.tar.gz](https://github.com/Lightminedust/genesis-releases/releases/download/v0.3.0/Genesis-0.3.0-linux-x64.tar.gz) | Linux portable : extraire, puis lancer `Genesis/bin/Genesis` |
 | [**Genesis-0.2.0-macos-arm64.dmg**](https://github.com/Lightminedust/genesis-releases/releases/download/v0.2.0/Genesis-0.2.0-macos-arm64.dmg) | Image disque macOS Apple Silicon : ouvrir, puis glisser Genesis vers Applications |
 | [Genesis-0.2.0-macos-arm64.zip](https://github.com/Lightminedust/genesis-releases/releases/download/v0.2.0/Genesis-0.2.0-macos-arm64.zip) | macOS Apple Silicon portable : extraire, puis ouvrir `Genesis.app` |
 
@@ -78,10 +78,10 @@ Java et le moteur Python sont inclus : aucune installation séparée de Java ou 
 **Avertissement de Windows.** Cette version n'est pas encore signée numériquement. Si Windows SmartScreen affiche un avertissement, cliquez sur **Informations complémentaires**, puis **Exécuter quand même**. Vous pouvez vérifier que votre téléchargement est intact avec les empreintes SHA-256 de [CHECKSUMS-SHA256.txt](CHECKSUMS-SHA256.txt) :
 
 ```powershell
-Get-FileHash .\Genesis-0.2.0.exe -Algorithm SHA256
+Get-FileHash .\Genesis-0.3.0.exe -Algorithm SHA256
 ```
 
-**Linux.** Sous Debian/Ubuntu, installer le fichier téléchargé avec `sudo apt install ./Genesis-0.2.0-linux-x64.deb`. Pour l'archive portable : `tar -xzf Genesis-0.2.0-linux-x64.tar.gz`, puis `./Genesis/bin/Genesis`. Un bureau avec GTK 3 est nécessaire. Le journal du moteur Linux est dans `${XDG_STATE_HOME:-~/.local/state}/genesis/logs/engine.log`.
+**Linux.** Sous Debian/Ubuntu, installer le fichier téléchargé avec `sudo apt install ./Genesis-0.3.0-linux-x64.deb`. Pour l'archive portable : `tar -xzf Genesis-0.3.0-linux-x64.tar.gz`, puis `./Genesis/bin/Genesis`. Un bureau avec GTK 3 est nécessaire. Le journal du moteur Linux est dans `${XDG_STATE_HOME:-~/.local/state}/genesis/logs/engine.log`.
 
 **macOS.** Apple Silicon (arm64) uniquement. Ouvrir le `.dmg` et glisser Genesis vers Applications, ou extraire le `.zip` et ouvrir `Genesis.app`. Le paquet n'est pas notarié : si macOS bloque le premier lancement, clic droit sur l'application, **Ouvrir**, puis confirmer. Vous pouvez aussi lever la quarantaine avec `xattr -dr com.apple.quarantine /Applications/Genesis.app`. Le journal du moteur est dans `~/Library/Logs/Genesis/engine.log`.
 
