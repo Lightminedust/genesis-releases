@@ -6,15 +6,15 @@
 
 <p align="center">
   <b>La matière, calculée sous vos yeux.</b><br>
-  Un simulateur physique gratuit pour Windows, Linux et macOS : construisez un atome, faites fusionner deux noyaux, descendez jusqu'aux quarks.
+  Un simulateur physique gratuit pour Windows, Linux et macOS : construisez des atomes et des molécules, faites fusionner deux noyaux, descendez jusqu'aux quarks.
 </p>
 
 <p align="center">
-  <a href="https://github.com/Lightminedust/genesis-releases/releases/download/v0.3.0/Genesis-0.3.0.exe"><b>Télécharger pour Windows</b></a>
+  <a href="https://github.com/Lightminedust/genesis-releases/releases/download/v0.4.0/Genesis-0.4.0.exe"><b>Télécharger pour Windows</b></a>
   ·
-  <a href="https://github.com/Lightminedust/genesis-releases/releases/download/v0.3.0/Genesis-0.3.0-linux-x64.deb"><b>Télécharger pour Linux</b></a>
+  <a href="https://github.com/Lightminedust/genesis-releases/releases/download/v0.4.0/Genesis-0.4.0-linux-x64.deb"><b>Télécharger pour Linux</b></a>
   ·
-  <a href="https://github.com/Lightminedust/genesis-releases/releases/download/v0.3.0/Genesis-0.3.0-macos-arm64.dmg"><b>Télécharger pour macOS</b></a>
+  <a href="https://github.com/Lightminedust/genesis-releases/releases/download/v0.4.0/Genesis-0.4.0-macos-arm64.dmg"><b>Télécharger pour macOS</b></a>
   ·
   <a href="https://genesis.gemmi-e.com">Site web</a>
   ·
@@ -27,7 +27,7 @@
 
 Dans Genesis, rien n'est scénarisé. Un moteur physique écrit en Python fait avancer le temps et applique les lois de la physique ; chaque événement arrive au moment où la loi le décide, avec le calcul qui le justifie. Les chiffres viennent de données de référence : NIST, NUBASE2020, AME2020, PDG, CODATA, REACLIB.
 
-## Trois laboratoires
+## Quatre domaines à explorer
 
 ### L'atome
 
@@ -47,7 +47,16 @@ Choisissez n'importe quels deux noyaux et l'énergie du choc. Le moteur calcule 
 - La collision à son échelle réelle, puis au plus près du contact
 - Les champs et les forces qui agissent à chaque instant
 - Un bilan détaillé : produits, énergie libérée, probabilités
-- Le plasma d'un réacteur et le cœur d'une étoile
+
+### Le laboratoire moléculaire
+
+Posez des atomes sur l'établi ou partez d'une molécule proposée. Le modèle semi-empirique GFN1-xTB calcule l'état électronique, l'énergie et les forces pendant que la structure se relaxe ou évolue.
+
+- Des structures moléculaires : eau, benzène, agrégats d'or et autres exemples
+- Halo de polarisation, densité de déformation et orbitales moléculaires en 3D
+- Paires d'électrons localisées et liaisons à deux ou plusieurs centres
+- Température, dynamique, modes de vibration et choix des isotopes
+- Bilan d'énergie détaillé et comparaison avec des mesures de référence
 
 ### Le monde subatomique
 
@@ -60,16 +69,16 @@ Envoyez un électron sur un nucléon et regardez ce qui arrive, assemblez vos pr
 - Le tableau du Modèle Standard, chaque ligne calculée ou mesurée
 - La mer de partons qui apparaît quand on regarde de plus près
 
-## Télécharger — version 0.3.0
+## Télécharger — version 0.4.0
 
 | Fichier | Usage |
 | --- | --- |
-| [**Genesis-0.3.0.exe**](https://github.com/Lightminedust/genesis-releases/releases/download/v0.3.0/Genesis-0.3.0.exe) | Installateur Windows : ajoute Genesis au menu Démarrer et au bureau |
-| [Genesis-0.3.0-portable.zip](https://github.com/Lightminedust/genesis-releases/releases/download/v0.3.0/Genesis-0.3.0-portable.zip) | Windows portable : extraire toute l'archive, puis lancer `Genesis/Genesis.exe` |
-| [**Genesis-0.3.0-linux-x64.deb**](https://github.com/Lightminedust/genesis-releases/releases/download/v0.3.0/Genesis-0.3.0-linux-x64.deb) | Installateur Debian/Ubuntu x86-64 : ajoute Genesis au menu des applications |
-| [Genesis-0.3.0-linux-x64.tar.gz](https://github.com/Lightminedust/genesis-releases/releases/download/v0.3.0/Genesis-0.3.0-linux-x64.tar.gz) | Linux portable : extraire, puis lancer `Genesis/bin/Genesis` |
-| [**Genesis-0.3.0-macos-arm64.dmg**](https://github.com/Lightminedust/genesis-releases/releases/download/v0.3.0/Genesis-0.3.0-macos-arm64.dmg) | Image disque macOS Apple Silicon : ouvrir, puis glisser Genesis vers Applications |
-| [Genesis-0.3.0-macos-arm64.zip](https://github.com/Lightminedust/genesis-releases/releases/download/v0.3.0/Genesis-0.3.0-macos-arm64.zip) | macOS Apple Silicon portable : extraire, puis ouvrir `Genesis.app` |
+| [**Genesis-0.4.0.exe**](https://github.com/Lightminedust/genesis-releases/releases/download/v0.4.0/Genesis-0.4.0.exe) | Installateur Windows : ajoute Genesis au menu Démarrer et au bureau |
+| [Genesis-0.4.0-portable.zip](https://github.com/Lightminedust/genesis-releases/releases/download/v0.4.0/Genesis-0.4.0-portable.zip) | Windows portable : extraire toute l'archive, puis lancer `Genesis/Genesis.exe` |
+| [**Genesis-0.4.0-linux-x64.deb**](https://github.com/Lightminedust/genesis-releases/releases/download/v0.4.0/Genesis-0.4.0-linux-x64.deb) | Installateur Debian/Ubuntu x86-64 : ajoute Genesis au menu des applications |
+| [Genesis-0.4.0-linux-x64.tar.gz](https://github.com/Lightminedust/genesis-releases/releases/download/v0.4.0/Genesis-0.4.0-linux-x64.tar.gz) | Linux portable : extraire, puis lancer `Genesis/bin/Genesis` |
+| [**Genesis-0.4.0-macos-arm64.dmg**](https://github.com/Lightminedust/genesis-releases/releases/download/v0.4.0/Genesis-0.4.0-macos-arm64.dmg) | Image disque macOS Apple Silicon : ouvrir, puis glisser Genesis vers Applications |
+| [Genesis-0.4.0-macos-arm64.zip](https://github.com/Lightminedust/genesis-releases/releases/download/v0.4.0/Genesis-0.4.0-macos-arm64.zip) | macOS Apple Silicon portable : extraire, puis ouvrir `Genesis.app` |
 
 Java et le moteur Python sont inclus : aucune installation séparée de Java ou Python n'est requise. Genesis tourne entièrement sur votre ordinateur, sans compte ni serveur. L'anglais est la langue initiale ; le français se choisit dans le menu des langues. Toutes les versions sont sur la [page des Releases](https://github.com/Lightminedust/genesis-releases/releases).
 
@@ -78,10 +87,10 @@ Java et le moteur Python sont inclus : aucune installation séparée de Java ou 
 **Avertissement de Windows.** Cette version n'est pas encore signée numériquement. Si Windows SmartScreen affiche un avertissement, cliquez sur **Informations complémentaires**, puis **Exécuter quand même**. Vous pouvez vérifier que votre téléchargement est intact avec les empreintes SHA-256 de [CHECKSUMS-SHA256.txt](CHECKSUMS-SHA256.txt) :
 
 ```powershell
-Get-FileHash .\Genesis-0.3.0.exe -Algorithm SHA256
+Get-FileHash .\Genesis-0.4.0.exe -Algorithm SHA256
 ```
 
-**Linux.** Sous Debian/Ubuntu, installer le fichier téléchargé avec `sudo apt install ./Genesis-0.3.0-linux-x64.deb`. Pour l'archive portable : `tar -xzf Genesis-0.3.0-linux-x64.tar.gz`, puis `./Genesis/bin/Genesis`. Un bureau avec GTK 3 est nécessaire. Le journal du moteur Linux est dans `${XDG_STATE_HOME:-~/.local/state}/genesis/logs/engine.log`.
+**Linux.** Sous Debian/Ubuntu, installer le fichier téléchargé avec `sudo apt install ./Genesis-0.4.0-linux-x64.deb`. Pour l'archive portable : `tar -xzf Genesis-0.4.0-linux-x64.tar.gz`, puis `./Genesis/bin/Genesis`. Un bureau avec GTK 3 est nécessaire. Le journal du moteur Linux est dans `${XDG_STATE_HOME:-~/.local/state}/genesis/logs/engine.log`.
 
 **macOS.** Apple Silicon (arm64) uniquement. Ouvrir le `.dmg` et glisser Genesis vers Applications, ou extraire le `.zip` et ouvrir `Genesis.app`. Le paquet n'est pas notarié : si macOS bloque le premier lancement, clic droit sur l'application, **Ouvrir**, puis confirmer. Vous pouvez aussi lever la quarantaine avec `xattr -dr com.apple.quarantine /Applications/Genesis.app`. Le journal du moteur est dans `~/Library/Logs/Genesis/engine.log`.
 
