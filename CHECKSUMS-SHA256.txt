@@ -1,6 +1,6 @@
-b832f35ee882b8cb350d0ce659a34d6a5a065dc7cd403406839d224fb3b0a711  Genesis-0.4.0-linux-x64.deb
-e15d60c310529ad79c46f338304c91c9d43e1ab5c61ddb255b47b3cbc88aeef3  Genesis-0.4.0-linux-x64.tar.gz
-279bd7ca069ccaa073ae094880f1eaff2b2fed3e7fdb81ac2e31dc96e57e678e  Genesis-0.4.0-macos-arm64.dmg
-b55e7f551c1faad482654bda2446687d5f2353929b186bf3ca860deeb41a7428  Genesis-0.4.0-macos-arm64.zip
-6cb914f8299078a1a717da2c65d2ebfe4e49cadefe85d3a14188c447b9a76744  Genesis-0.4.0-portable.zip
-07163580e37c16a22d0a54a82d08ea8b2139dc8c6ebbd03dc60c4bf0f8359373  Genesis-0.4.0.exe
+23e60f54869a9e51fddb723df4e66239c7f2781cb4d0bbd776bdd914c1b4d41e  Genesis-0.4.1-linux-x64.deb
+86b7ffbbd43989a80f03b8b009a1e2eb7d6640831168ade88edfa74cd03d3193  Genesis-0.4.1-linux-x64.tar.gz
+5d1e63fa229a7246450e20d28c38c00e8c7a37862aca4c1488102184004c59f5  Genesis-0.4.1-macos-arm64.dmg
+bf97a51bc9f9be9187facd81032bb6f4d1cabb9691763fb9fed8c8f0207318c0  Genesis-0.4.1-macos-arm64.zip
+62daa26b46ca0e94c38be3ccc361fcade0bfc2ff543e45d701c5257f9f843f6a  Genesis-0.4.1-portable.zip
+cbbc7c13c3e384e1f3dad7d18ddd6878f355b3fbeb3ff7d50e1089d12fb79ad7  Genesis-0.4.1.exe
