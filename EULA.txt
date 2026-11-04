@@ -22,9 +22,15 @@ You may not, in whole or in part:
 
 All rights not expressly granted to you are reserved by Gemmie. The source code of the Software is not distributed and remains the exclusive property of Gemmie.
 
-3. HOW THE SOFTWARE WORKS
+3. HOW THE SOFTWARE WORKS AND WHAT IT SENDS
 
-The Software performs local subatomic physics and quantum mechanics simulations. It does not send your data, your simulation parameters, or your exported frames to the author or to any third party. The mathematical computations are executed locally on your hardware. Files it keeps on your computer are described in its documentation. This description is provided for transparency and is not a warranty.
+The Software performs local subatomic physics and quantum mechanics simulations. The mathematical computations are executed locally on your hardware. It does not send your simulation parameters, the structures you build, your exported frames, or your files to the author or to any third party. Files it keeps on your computer are described in its documentation.
+
+To improve the Software, it sends usage statistics to Gemmie's server (gemmi-e.com): when the Software starts and closes, how long it is used and how long it is in the foreground, which laboratories are opened and for how long, the version of the Software, the operating system, the interface language, the screen size, the number of processor cores and the amount of memory, together with a random identifier created at installation. It contains no name and no e-mail address. The server receives your IP address; an approximate country, region and city are derived from it, and only a salted fingerprint of the address is kept, never the address itself. These statistics are used solely to improve Genesis; they are not sold and not shared with third parties. Sending is on by default; the first launch says so, and you can turn it off at any time (⚙ → "Send usage statistics"). Once it is off, nothing is sent, and the Software keeps working the same. The details, your rights and how to have your data deleted are in the privacy notice (docs/PRIVACY.md).
+
+The Software also asks GitHub whether a newer version has been published; GitHub then sees your IP address, under its own privacy policy.
+
+This description is provided for transparency and is not a warranty.
 
 4. NO WARRANTY
 
