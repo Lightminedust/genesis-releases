@@ -6,7 +6,7 @@
 
 <p align="center">
   <b>La matière, calculée sous vos yeux.</b><br>
-  Un simulateur physique gratuit pour Windows, Linux et macOS : construisez des atomes et des molécules, faites fusionner deux noyaux, descendez jusqu'aux quarks.
+  Un simulateur gratuit de physique et de chimie quantiques pour Windows, macOS et Linux : construisez des atomes et des molécules, dessinez des mécanismes réactionnels sur papier et faites-les calculer, faites fusionner deux noyaux, descendez jusqu'aux quarks.
 </p>
 
 <p align="center">
@@ -50,6 +50,8 @@ Choisissez n'importe quels deux noyaux et l'énergie du choc. Le moteur calcule 
 
 ### Le laboratoire moléculaire
 
+<img src="images/molecules.jpg" alt="La caféine dans le laboratoire moléculaire : son halo de polarisation coloré par les charges calculées, les signes δ+ et δ−, et le bilan d'énergie de ce qui lie la molécule">
+
 **Nouveautés de la 0.6.0.** Dessinez des schémas réactionnels en plusieurs étapes, importez des structures avec RDKit, comparez les profils énergétiques calculés et rejouez les changements de liaisons. Le laboratoire propose 25 solvants implicites. Un nouvel accueil et des guides intégrés facilitent l’accès aux laboratoires. [Notes de version](RELEASE_NOTES.md)
 
 Posez des atomes sur l'établi ou partez d'une molécule proposée. Le modèle semi-empirique GFN1-xTB calcule l'état électronique, l'énergie et les forces pendant que la structure se relaxe ou évolue.
@@ -61,6 +63,20 @@ Posez des atomes sur l'établi ou partez d'une molécule proposée. Le modèle s
 - Bilan d'énergie détaillé et comparaison avec des mesures de référence
 - Un assembleur 2D : dessiner une molécule, la faire vérifier par le calcul, puis la simuler en 3D
 - Un réacteur à piston : la pression mesurée sur la paroi, ou imposée de 100 à 20 000 atm
+
+### Les mécanismes réactionnels, dessinés et calculés
+
+<img src="images/scheme.jpg" alt="L'éditeur de schémas : une synthèse en quatre étapes dessinée en formules squelettiques, calculée en direct par GFN1-xTB, avec le profil d'énergie et le verdict de chaque étape">
+
+Dessinez une synthèse comme sur papier — formules squelettiques, réactifs au-dessus des flèches, solvant au-dessous, flèches courbes si vous voulez — ou collez-la depuis ChemDraw ou MarvinSketch (MOL, SDF, RXN, CDXML, MRV, SMILES). Genesis trouve quel atome devient quel atome, déduit les sous-produits, puis calcule chaque étape : réactifs et produits relaxés seuls, et un chemin entre eux, les liaisons tirées dans les deux sens.
+
+<img src="images/path.jpg" alt="Le rejeu d'une étape de Diels–Alder : les deux nouvelles liaisons C–C qui s'allument en se formant, leur longueur et leur indice de Mayer, et l'énergie le long du chemin">
+
+- Chaque étape rejouée image par image : les liaisons qui se forment et se rompent, leurs longueurs et leurs indices, les charges
+- Le profil d'énergie de chaque étape et de tout le schéma, avec la barrière et ΔE
+- La barrière lue en temps (Eyring), l'entropie estimée quand des molécules partent, et les limites du modèle dites
+- Chaque étape reliée à la suivante : les mêmes atomes gardent les mêmes numéros du début à la fin
+- 25 solvants implicites, relief en anaglyphe rouge-cyan ou côte à côte
 
 ### Le monde subatomique
 

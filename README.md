@@ -6,7 +6,7 @@
 
 <p align="center">
   <b>Matter, computed before your eyes.</b><br>
-  A free physics simulator for Windows, Linux and macOS: build atoms and molecules, fuse two nuclei, go all the way down to quarks.
+  A free quantum physics &amp; chemistry simulator for Windows, macOS and Linux: build atoms and molecules, draw reaction mechanisms on paper and have them computed, fuse two nuclei, go all the way down to quarks.
 </p>
 
 <p align="center">
@@ -50,6 +50,8 @@ Choose any two nuclei and the collision energy. The engine computes the approach
 
 ### The molecular laboratory
 
+<img src="images/molecules.jpg" alt="Caffeine in the molecular laboratory: its polarization halo coloured by the computed charges, δ+ and δ− signs, and the energy balance of what binds the molecule">
+
 **New in 0.6.0.** Draw multi-step reaction schemes, import structures with RDKit, compare computed energy profiles and replay how bonds change. The laboratory supports 25 implicit solvents. A new home screen and in-lab guides make it easier to find and use each lab. [Release notes](RELEASE_NOTES.md)
 
 Place atoms on the bench or start from a ready-made molecule. The semi-empirical GFN1-xTB model computes the electronic state, energy and forces as the structure relaxes or moves.
@@ -61,6 +63,20 @@ Place atoms on the bench or start from a ready-made molecule. The semi-empirical
 - Detailed energy terms and comparisons with reference measurements
 - A 2D assembler: draw a molecule, have it checked by the calculation, then simulate it in 3D
 - A reactor piston: the pressure measured on the wall, or imposed from 100 to 20,000 atm
+
+### Reaction mechanisms, drawn and computed
+
+<img src="images/scheme.jpg" alt="The reaction-scheme editor: a four-step synthesis drawn as skeletal formulas, computed by GFN1-xTB live, with the energy profile and each step's verdict">
+
+Draw a synthesis the way you would on paper — skeletal formulas, reagents above the arrows, the solvent below, curly arrows if you like — or paste it from ChemDraw or MarvinSketch (MOL, SDF, RXN, CDXML, MRV, SMILES). Genesis works out which atom becomes which, deduces the by-products, then computes every step: reactants and products relaxed alone, and a path between them with the bonds pulled both ways.
+
+<img src="images/path.jpg" alt="The replay of a Diels–Alder step: the two new C–C bonds glowing as they form, their length and Mayer bond order, and the energy along the path">
+
+- Each step replayed image by image: the bonds that form and break, their lengths and bond orders, the charges
+- The energy profile of each step and of the whole scheme, with the barrier and ΔE
+- The barrier read as a time (Eyring), an entropy estimate when molecules leave, and the model's limits stated
+- Every step joined to the next: the same atoms keep the same numbers from start to finish
+- 25 implicit solvents, red-cyan anaglyph or side-by-side relief
 
 ### The subatomic world
 
